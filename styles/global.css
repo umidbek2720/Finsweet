@@ -1,0 +1,121 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: 400;
+    font-family: "Sen", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+/* global classes */
+.flex {
+    display: flex;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #232536;
+}
+
+.heading-1 {
+    font-size: 48px;
+    line-height: 64px;
+}
+
+.heading-2 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+.heading-3 {
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.heading-4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.heading-5 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.heading-6 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.paragraf-1 {
+    font-size: 16px;
+    color: #232536;
+    line-height: 28px;
+}
+
+.paragraf-2 {
+    color: #232536;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.label {
+    color: #232536;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.button {
+    font-size: 18px;
+    color: #232536;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 48px;
+    background-color: #FFD050;
+    transition: background-color 0.5s ease-in;
+}
+
+.button:hover{
+    background-color: #EDC14A;
+}
